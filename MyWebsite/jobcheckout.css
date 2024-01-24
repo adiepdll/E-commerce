@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffd1dc;
+    color: #414141;
+    padding-top: 60px;
+}
+
+.main .card{
+    width: 60rem;
+    margin: auto;
+    background: #fff;
+    position: center;
+    align-self: center;
+    top: 50rem;
+    border-radius: 1.5rem;
+    border-shadow: 4px 3px 20px #000;
+    display: flex;
+    flex-direction: row;
+}
+
+.main .leftside{
+    background: #e75480;
+    width: 25rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+}
+
+.pic{
+    object-fit: contain;
+    width: 200px;
+    height:200px;
+    padding-bottom: 40px;
+}
+
+.rightside{
+    background-color: #fff;
+    width: 35rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 1rem 2rem 3rem 3rem;
+}
+
+p{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.inputbox{
+    color: #030303;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid #ccc;
+    margin-bottom: 1rem;
+    border-radius: 0;
+    color: #615a5a;
+    font-size: 1.1rem;
+    font-weight: 600;
+    outline: none;
+}
+
+.expcvv{
+    display: flex;
+    justify-content: space-between;
+    padding: .6rem;
+}
+
+.expcvv_text{
+    padding-right: 1rem;
+}
+
+.expcvv_text2{
+    padding: 0 1rem;
+}
+
+.button{
+    background: linear-gradient(135deg, #e40046 0%, #fc8eac 100%);
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    width: 100%;
+    letter-spacing: .11rem;
+    outline: none;
+}
+
+.button:hover{
+    transform: scale(1.05) translateY(-3px);
+    box-shadow: 3px 3px 6px #38373785;
+    transition: .5s;
+}
